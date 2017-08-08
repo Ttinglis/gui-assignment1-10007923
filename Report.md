@@ -36,7 +36,7 @@ When a screen has more than one field you want to organize fields in a way that'
 through aligning the left hand side of the fields.
 http://www.ambysoft.com/essays/userInterfaceDesign.html
 
-##Group things effectively
+## Group things effectively
 Items that are logically connected should be grouped together on the screen to communicate they are connected. Items that have nothing to do
 with each other should be separated. You can use white space between collected items to group them or put boxes around them to accomplish this
 http://www.ambysoft.com/essays/userInterfaceDesign.html
