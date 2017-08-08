@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <head>
+      <meta charset="UTF-8">
+      <link rel="stylesheet" href="main.css">
+      <script type="text/javascript" src="main.js"></script>
+</head>
+    <body>
+    <h1> Background Color Changer Assignment 1</h1>
+    <p> Please select a desired background color using sliders below followed by the Confirm button.</p>
+    <p> Press the reset button to reset the sliders and background color</p>
+    <div class="picker">
+
+    <fieldset>
+    Red <input type="range" min="0" max="255" step="1" id="red" value="255" onchange="updateRedOutput(this.value);">
+    <output type="text" id="RedOutput" value="">255</output>
+    </fieldset>
+
+    <fieldset>
+    Green <input type="range" min="0" max="255" step="1" id="green" value="255" onchange="updateGreenOutput(this.value);">
+    <output type="text" id="GreenOutput" value="">255</output>
+    </fieldset>
+
+    <fieldset>
+    Blue <input type="range" min="0" max="255" step="1" id="blue" value="255" onchange="updateBlueOutput(this.value);"> 
+    <output type="text" id="BlueOutput" value="">255</output>
+    </fieldset>
+    
+    </div>
+    <div id="display">Preview</div>
+    </div>
+
+    <div class=buttons>
+    <button id="backgroundChanger" onclick="backgroundColor()">Confirm</button>
+    <button id="backgroundReset" onclick="resetColor()">Reset</button>
+    </div>
+    </body>
+    <script type="text/javascript">
+    var input = document.querySelectorAll("input");
+        for(var i = 0; i < input.length; i++){
+        input[i].addEventListener("input", function(){
+            var red = document.getElementById("red").value,
+                green = document.getElementById("green").value,
+                blue = document.getElementById("blue").value;
+                var display = document.getElementById("display");
+                let color = "rgb(" + red + ", " + green + ", " + blue + ")";
+                display.style.background = color;              
+        });
+}
+</script>
+</html>

@@ -1,0 +1,30 @@
+
+body{
+    font-family: "Helvetica Neue", Helvetica;
+    text-align: center;
+}
+ 
+#display{
+    width: 10%;
+    height: 100px;
+    background: white;
+    border: 1px solid #000;
+    margin-left: 45%;
+    margin-top: 5px;
+    
+}
+
+div.buttons{
+    display: block;
+    width: 20%;
+    margin-left: 40%;
+    margin-top: 5px;
+}
+output{
+  display: inline-block;
+}
+fieldset{
+    width: 80%;
+    margin-top: 19px;
+    margin-left: 10%;
+}
