@@ -40,3 +40,6 @@ http://www.ambysoft.com/essays/userInterfaceDesign.html
 Items that are logically connected should be grouped together on the screen to communicate they are connected. Items that have nothing to do
 with each other should be separated. You can use white space between collected items to group them or put boxes around them to accomplish this
 http://www.ambysoft.com/essays/userInterfaceDesign.html
+
+## Marks peer review writeup.
+The project that I was asked to test was Taylors he is part of electron. What was created was a small program / App with three sliders (RGB) a reset button and instructions.  I found it very easy to use the instructions on screen were very clear with what needed to be done. Moving each slider individually a small box would change to the color that was desired you could create any color you wanted my mixing each slider as in his report this is very good use of user control and freedom. Finally, there was a reset button when pressed returned all sliders back to their default position intern making the box white again. Overall I was very impressed with what was created and found no app breaking problems. I also like the use of Aesthetic and minimalist design it kept the app clean and simple to use with no extra unused items to clutter the app this I found was in direct relation to one of his principles.
